@@ -10,6 +10,7 @@ app = FastAPI()
 # CORS configuration
 origins = [
     "http://localhost:5173",
+    "https://resumepivotfe.onrender.com",
 ]
 
 app.add_middleware(
