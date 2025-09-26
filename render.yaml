@@ -18,3 +18,4 @@ services:
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     # Automatically trigger a new build on git push
     autoDeploy: true
+    healthCheckPath: /healthz
